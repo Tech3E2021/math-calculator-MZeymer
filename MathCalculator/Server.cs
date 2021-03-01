@@ -63,19 +63,19 @@ namespace MathCalculator
             switch (_selectedMethod)
             {
                 case "Add":
-                    Console.WriteLine("Selected method: Add");
+                    sw.WriteLine("Selected method: Add");
                     AddNumbers();
                     break;
                 case "Sub":
-                    Console.WriteLine("Selected method: Subtraction");
+                    sw.WriteLine("Selected method: Subtraction");
                     SubNumbers();
                     break;
                 case "Mul":
-                    Console.WriteLine("Selected method: Multiply");
+                    sw.WriteLine("Selected method: Multiply");
                     MulNumbers();
                     break;
                 case "Div":
-                    Console.WriteLine("Selected method: Divide");
+                    sw.WriteLine("Selected method: Divide");
                     DivNumbers();
                     break;
 
