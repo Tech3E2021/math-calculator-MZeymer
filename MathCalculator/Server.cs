@@ -60,7 +60,6 @@ namespace MathCalculator
             _selectedMethod = (array[0]);
             _numberX = Double.Parse(array[1]);
             _numberY = Double.Parse(array[2]);
-            AddNumbers();
             switch (_selectedMethod)
             {
                 case "Add":
